@@ -1,4 +1,4 @@
-package com.myeglu.common.kotlinx.serialization
+package com.exmaple.kotlinx.serialization
 
 import kotlinx.serialization.json.*
 

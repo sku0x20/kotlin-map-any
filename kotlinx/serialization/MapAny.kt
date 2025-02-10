@@ -1,4 +1,4 @@
-package com.myeglu.common.kotlinx.serialization
+package com.exmaple.kotlinx.serialization
 
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.KSerializer
@@ -19,7 +19,7 @@ class MapAnySerializer : KSerializer<MapAny> {
 
     @OptIn(ExperimentalSerializationApi::class)
     override val descriptor: SerialDescriptor =
-        SerialDescriptor("com.myeglu.common.MapAnySerializer", jsonObjectSerializer.descriptor)
+        SerialDescriptor("com.exmaple.MapAnySerializer", jsonObjectSerializer.descriptor)
 
     private val deserializeTransformer = FromJsonElementTransformer()
     override fun deserialize(decoder: Decoder): MapAny {
