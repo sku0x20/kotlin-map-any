@@ -1,5 +1,5 @@
-package com.exmaple.kotlinx.serialization
+package com.example.kotlinx.serialization
 
-import com.exmaple.BadRequestException
+import com.example.BadRequestException
 
 class UnknownPrimitiveTypeException(value: Any) : BadRequestException("unknown primitive type $value")

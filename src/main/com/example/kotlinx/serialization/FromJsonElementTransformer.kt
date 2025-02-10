@@ -1,4 +1,4 @@
-package com.exmaple.kotlinx.serialization
+package com.example.kotlinx.serialization
 
 import kotlinx.serialization.json.*
 
